@@ -23,3 +23,4 @@ avg = sum / 2
 print("합계 :" + str(sum) + "점")
 #print("평균 :", avg, "점")
 print("합계 :" + str(avg) + "점")
+o
