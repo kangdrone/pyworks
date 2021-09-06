@@ -1,3 +1,4 @@
+# 자리 배치도 프로그램
 
 x = input("입장객 수 : ")
 customer = int(x)
@@ -17,5 +18,5 @@ for i in range(0, row_num):
         seat_num = i*col_num+j
         if seat_num > customer:
             break
-        print(i*col_num+j, end=' ')
+        print("좌석" + str(seat_num), end=' ')
     print()

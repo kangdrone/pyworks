@@ -7,7 +7,7 @@ while True:
 
     if answer == 'y' or  answer == 'Y':
         print("계속 반복합니다.")
-    elif answer == 'n' or answer == 'X':
+    elif answer == 'n' or answer == 'N':
         print("반복을 중단합니다")
         break
     else:
