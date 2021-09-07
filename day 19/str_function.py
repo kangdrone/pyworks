@@ -4,6 +4,7 @@ s1 = "banana grape peach"
 s1 = s1.split(' ')  # 공백문자로 구분되어 리스트 형태로 반환됨
 print(s1)
 print(s1[0])
+print(s1[-1])
 
 print("replace() 함수")
 s2 = "Hello, World"

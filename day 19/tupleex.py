@@ -10,6 +10,10 @@ print(t[1:])
 
 t2 = (1, 2, 3)
 t3 = (4,)  # 1개 추가하기 (쉼표를 붙임)
+t4 = (5)
 print(t2)
 print(t3)
 print(t2 + t3)  # 요소 더하기
+print(t4)
+print(type(t3))
+print(type(t4))
