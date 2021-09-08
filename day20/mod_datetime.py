@@ -1,4 +1,5 @@
 # dateitme 모듈 - 날짜, 시간 관련
+
 import datetime
 
 now = datetime.datetime.now()
@@ -14,8 +15,7 @@ print("{}시".format(now.hour))
 print("{}분".format(now.minute))
 print("{}초".format(now.second))
 
-print("{}년 {}월 {}일, {}시 {}분 {}초".format(now.year,
-                now.month, now.day, now.hour, now.hour, now.minute, now.second))
+print("{}년 {}월 {}일, {}시 {}분 {}초".format(now.year, now.month, now.day, now.hour, now.hour, now.minute, now.second))
 
 # 날짜/시간 출력
 print(now.strftime("%Y. %m. %d %H. %M. %S"))

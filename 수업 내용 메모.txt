@@ -46,6 +46,18 @@ len( ) - 리스트 개수
 global - 프로그램 종료시 소멸
 return - 반복
 
+객체 관련 제어문
+__init__(self) - 객체 생성
+__str__(self) - 객체의 정보
+
+도형그리기 관련 명령어
+OOO.up() - 펜 올리기
+OOO.down() - 펜 내리기
+OOO.onkeypress() - 키 조종    ex) OOO.onkeypress(turn_left, "Left") - 왼쪽 키 조종
+OOO.listen() - 실행 대기
+OOO.mainloop() - 애니메이션 다 그린후 대기
+
+
 * ========
 def add(x, y):
     return x + y

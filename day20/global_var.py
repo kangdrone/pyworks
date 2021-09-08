@@ -5,7 +5,7 @@ def one_up():
     x += 1
     return x
 
-x = 1  # x는 전역변수 : 프로그램이 종료되면 소멸
+x = 1  # x는 전역변수 : 프로그램이 종료되면 소멸, 값을 공유, 누적
 print(one_up())  # 2
 print(one_up())  # 3
 print(one_up())  # 4

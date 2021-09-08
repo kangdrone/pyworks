@@ -23,3 +23,5 @@ for i in range(n):
 t.pensize(4)
 t.color("blue")
 t.circle(100)  # 반지름이 50px
+
+t.mainloop()

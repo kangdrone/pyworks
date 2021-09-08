@@ -18,3 +18,5 @@ t.color("pink")
 for x in range(n):
     t.circle(140)
     t.left(360/2.1)
+
+t.mainloop()
