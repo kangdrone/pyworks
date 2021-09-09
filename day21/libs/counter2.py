@@ -3,10 +3,10 @@ class Counter:
     x = 0   # 클래스 변수
 
     def __init__(self):
-        Counter.x += 1
+        Counter.x += 1    # 클래스 이름으로 접근
 
     def __str__(self):
-        return self.x
+        return Counter.x
 
 c1 = Counter()
 print(c1.x)

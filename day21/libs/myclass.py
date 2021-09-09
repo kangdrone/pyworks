@@ -44,4 +44,4 @@ class Employee:
         return self._empid
 
     def getname(self):
-        return  self._name
+        return self._name

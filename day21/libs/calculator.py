@@ -7,7 +7,7 @@ class calculator:
         return self.x + self.y
 
     def sub(self):
-        return self.x + self.y
+        return self.x - self.y
 
     def mul(self):
         return self.x * self.y
