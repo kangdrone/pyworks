@@ -17,7 +17,7 @@ polygon(3)
 polygon(5)
 
 t.up()  # 펜 올리기
-t.forward(100)
+t.forward(150)
 t.down()  # 펜 내리기
 
 polygon2(4, 70)

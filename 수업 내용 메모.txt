@@ -37,6 +37,8 @@ replace( ) - 문자 추가
 format( ) - 문자열 중간에 문자 추가
 
 수학 관련 함수
+int( ) - 수
+str ( ) - 문자
 abs( ) - 절댓값
 round( ) - 반올림
 eval( ) - 문자열 수식 계산
@@ -56,6 +58,11 @@ OOO.down() - 펜 내리기
 OOO.onkeypress() - 키 조종    ex) OOO.onkeypress(turn_left, "Left") - 왼쪽 키 조종
 OOO.listen() - 실행 대기
 OOO.mainloop() - 애니메이션 다 그린후 대기
+
+파일 객체 - f = open(파일이름.모드)
+r (읽기 모드) - 파일을 읽을 때 사용
+w (쓰기 모드) - 파일을 쓸 때 사용
+a (추가모드) - 파일의 마지막에 내용을 추가할 때 사용
 
 
 * ========

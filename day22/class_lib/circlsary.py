@@ -16,10 +16,11 @@ class UpgradeCalculator(Calculator):
 cal1 = Calculator()
 print(cal1.add(10))
 """
+
 # UpgradeCalculator() 테스트
 
 cal2 = UpgradeCalculator()
 print(cal2.add(10))
-print(cal2.minus(7))
+print(cal2.minus(6))
 
 print(cal2.value)

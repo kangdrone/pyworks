@@ -17,8 +17,10 @@ class Employee(Person):
         return "이름 : {0}, 나이 : {1}, 사번 : {2}".format(self.name, self.empid, self.age)
 
 emp1 = Employee("콩쥐", 25, 1001)
-
 print(emp1)
+
+emp2 = Employee("팥쥐", 25, 1002)
+print(emp2)
 
 """
 print(emp1.empid)

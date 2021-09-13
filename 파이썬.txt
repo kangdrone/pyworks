@@ -1,1 +1,0 @@
-add vkdltjs 3.9 th 체크란에 체크 하고 설치
