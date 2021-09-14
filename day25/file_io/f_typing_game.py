@@ -10,15 +10,18 @@
 import random
 import time
 
-word = ['sky', 'earth', 'moon', 'flower', 'tree', 'strawberry',
-        'graoe', 'garlic', 'onion', 'potato']
+# word.txt 파일 읽기
+try:
+    with open('word.txt', 'r') as f:
+        word = f.readline().split()  # 공백문자로 구분
+    # print(word)
 
-n = 1   # 문제 번호
+    n = 1   # 문제 번호
 
-print("[ 타자 게임 ] 준비되면 엔터")
-input()
-start = time.time()
-while n < 11:
+    print("[ 타자 게임 ] 준비되면 엔터")
+    input()
+    start = time.time()
+    while n < 11:
         print('-문제', n)
         q = random.choice(word)   # 문제
         print(q)
@@ -29,6 +32,8 @@ while n < 11:
             n += 1
         else:
             print("오타! 다시도전")
-end = time.time()
-et = end - start
-print("타자 시간 : %.2f초" % et)
+    end = time.time()
+    et = end - start
+    print("타자 시간 : %.2f초" % et)
+except FileNotFoundError:
+    print("파일을 찾을 수 없습니다.")
