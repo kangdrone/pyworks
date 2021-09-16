@@ -1,8 +1,95 @@
-
-body{
-    text-align : center;
-    margin : 45px;
+/* index 페이지 스타일 */
+*{
+    margin : 0;
+    padding : 0;
 }
-h1{
-    color : green;
+#container{
+    width : 1000px;
+    margin : 0 auto;
+}
+header{
+    height : 100px;
+}
+nav ul{
+    list-style : none;
+    text-align : right;
+    margin-right : 150px;
+    padding-top : 30px;
+}
+nav ul li{
+    display : inline;
+    margin : 10px;
+    border-top : 3px; solid #333;
+    padding : 10px;
+}
+nav ul li a{
+    text-decoration : none;
+    color : #000;
+}
+nav ul li a:hover{
+    background-color : #eee;
+}
+
+
+section{
+    text-align : center;
+}
+section h1{
+    font-size : 2em;
+    margin-bottom : 20px;
+}
+section img{
+    margin-bottom : 10px;
+}
+
+/* member 페이지 스타일 */
+.join{
+    width : 600px;
+    margin : 0 auto;
+}
+.join ul{
+    list-style : none;
+}
+.join ul li{
+    margin : 15px;
+}
+.join ul li label{
+    width : 120px;
+    float : left;
+    text-align : right;
+}
+.join ul li input[type="text"], [type="password"], [type="email"]{
+    width : 250px;
+    height : 30px;
+}
+.join ul li select{
+    width : 120px;
+    height : 30px;
+}
+.join ul li input[type="submit"], [type="reset"]{
+    width : 80px;
+    height : 30px;
+    margin : 10px 5px;
+}
+
+/* login 페이지 스타일 */
+.login{
+    width : 500px;
+    margin : 0 auto
+}
+.login ul{
+    list-style : none;
+}
+.login ul li{
+    margin : 20px 20px 10px 20px
+    padding : 10px;
+}
+.login ul li label{
+    width : 120px
+    float : left;
+}
+.login ul li input[type="submit"], [type="reset"]{
+    width : 80px;
+    height : 30px;
+    margin : 10px 5px;
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>첫 화면입니다.</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/login/">로그인</a></li>
+                    <li><a href="/member/">회원가입</a></li>
+                    <li><a href="#">게시판</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>사이트를 이용하기 위해 로그인이 필요합니다</h1>
+            <form action="% url 'common:login' %" method="post" class="login">
+                <fieldset>
+                    <legend>로그인</legend>
+                        <ul>
+                            <li>
+                                <label for="uid">아이디</label>
+                                <input type="text" id="uid" name="uid">
+                            </li>
+                            <li>
+                                <label for="pwd1">비밀번호</label>
+                                <input type="password" id="pwd1" name="pwd1">
+                            </li>
+                            <li>
+                                <input type="submit" value="로그인">
+                                <input type="reset" value="취소">
+                            </li>
+                        </ul>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
