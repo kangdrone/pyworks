@@ -8,6 +8,13 @@ score = [
     [85, 70]
 ]
 
+# 리스트 추가
+score.append([90, 80])
+print(score)
+
+for x, y in score:
+    print(x, y)
+"""
 # 합계와 평균
 sum_kor = 0
 sum_math = 0
@@ -23,3 +30,4 @@ print("국어 합계 : %d점" % sum_kor)
 print("수학 합계 : %d점" % sum_math)
 print("국어 평균 : %.1f점" % avg_kor)
 print("수학 평균 : %.1f점" % avg_math)
+"""

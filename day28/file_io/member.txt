@@ -1,0 +1,3 @@
+smile     s12345678!
+mountain  m12345678@
+river     r12345678%

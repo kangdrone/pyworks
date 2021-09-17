@@ -75,21 +75,26 @@ section img{
 /* login 페이지 스타일 */
 .login{
     width : 500px;
-    margin : 0 auto
+    margin : 0 auto;
 }
 .login ul{
     list-style : none;
 }
 .login ul li{
-    margin : 20px 20px 10px 20px
+    margin : 20px 20px 10px 20px;
     padding : 10px;
 }
 .login ul li label{
-    width : 120px
+    width : 100px;
     float : left;
+    text-align : right;
 }
 .login ul li input[type="submit"], [type="reset"]{
     width : 80px;
     height : 30px;
     margin : 10px 5px;
+}
+.login ul li input[type="text"], [type="password"]{
+    width : 250px;
+    height : 30px;
 }
