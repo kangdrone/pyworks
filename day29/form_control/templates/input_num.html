@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>숫자 입력 페이지</title>
+</head>
+<body>
+  <form action="{{ url_for('even_odd') }}" method="post">
+      <p>
+          <label>숫자 입력</label>
+          <input type="text" name="num">
+      </p>
+      <button type="submit">전송</button>
+  </form>
+</body>
+</html>

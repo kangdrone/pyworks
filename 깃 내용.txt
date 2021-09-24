@@ -1,0 +1,77 @@
+Microsoft Windows [Version 10.0.18363.815]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\WIN10>cd c:/webdb
+
+c:\webdb>dir
+ C 드라이브의 볼륨: WIN10
+ 볼륨 일련 번호: D6D0-EAED
+
+ c:\webdb 디렉터리
+
+2021-09-24  오전 11:02    <DIR>          .
+2021-09-24  오전 11:02    <DIR>          ..
+2021-09-24  오전 11:18    <DIR>          dbworks
+2021-09-24  오전 10:59             8,192 mydb.db
+2021-09-24  오전 11:02             8,720 mydb.db-journal
+2021-09-24  오전 10:51            20,480 webdb.db
+2021-09-16  오후 01:06             1,660 webdb.sqbpro
+2021-09-16  오후 01:08             8,192 webdb2.db
+               5개 파일              47,244 바이트
+               3개 디렉터리  171,746,697,216 바이트 남음
+
+c:\webdb>git init
+Initialized empty Git repository in C:/webdb/.git/
+
+c:\webdb>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dbworks/
+        mydb.db
+        mydb.db-journal
+        webdb.db
+        webdb.sqbpro
+        webdb2.db
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\webdb>git add *
+warning: LF will be replaced by CRLF in dbworks/employee.sql.
+The file will have its original line endings in your working directory
+
+c:\webdb>git commit -m "dbworks"
+[master (root-commit) 7d0a6f7] dbworks
+ 8 files changed, 104 insertions(+)
+ create mode 100644 dbworks/dept_emp_join.sql
+ create mode 100644 dbworks/employee.sql
+ create mode 100644 dbworks/employee2.sql
+ create mode 100644 mydb.db
+ create mode 100644 mydb.db-journal
+ create mode 100644 webdb.db
+ create mode 100644 webdb.sqbpro
+ create mode 100644 webdb2.db
+
+c:\webdb>git branch
+* master
+
+c:\webdb>git branch -M main
+
+c:\webdb>git remote add origin https://github.com/kangdrone/dbworks.git
+
+c:\webdb>git push -u origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 3.42 KiB | 1.71 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/kangdrone/dbworks.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+c:\webdb>
