@@ -122,6 +122,11 @@ cal.weekday(2021, 9, 7)
 (2, 30)
 >>> 
 
+GUI(그래픽 사용자 인터페이스)
+
+import tkinter  - >  윈도우 창
+
+
 정규 표현식(점프 투 파이선 p.291 참고)
 import re
 
