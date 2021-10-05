@@ -1,4 +1,5 @@
 # gui 프로그램 만들기 - tkinter 모듈 불러오기
+# 루트 > 프레임 > 라벨,버튼
 from tkinter import *
 
 def click():
