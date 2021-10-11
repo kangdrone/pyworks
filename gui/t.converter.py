@@ -1,14 +1,19 @@
-# 온도 변환기
-class Converter:
-    def __init__(self, units_from, units_to, factor):
-        self.units_from = units_from
-        self.units_to = units_to
-        self.factor = factor
-        self.offset = offset
+from tkinter import *
 
-    def convert(self, val):
-        return self.factor * val + self.offset
+class App:
+    def __init__(self, root):
+        frame = Frame(root)
+        frame.pack()
 
-if __name__== "__name__"
-    c1 = Converter("C", 'F', 1.8, 32)
-    print(str(c1.converter(23)) + c1.units_to)
+        Label(frame, text="deg C").grid(row=0, column=0)
+        Button(frame, text="변환", command=self.convert).grid(row=1, columnspan=2)
+
+    def convert(self):
+        print("아직 구현되지 않음")
+
+root = Tk()
+root.title("Temp Converter")
+root.geometry("250x60+200+200")
+app = App(root)
+
+root.mainloop()
