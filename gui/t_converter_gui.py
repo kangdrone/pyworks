@@ -20,7 +20,7 @@ class App():
 
     def convert(self):
         c = self.c.get()   # 입력된 섭씨온도 가져오기
-        con_f ="{: .2f}".format(self.con.convert(c))
+        con_f ="{: .2f}F".format(self.con.convert(c))
         self.f.set(con_f)
 
 
